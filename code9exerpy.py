@@ -119,7 +119,7 @@ while i < k :
 i = 0
 chèn_5 =''
 while i < len(chèn_4) :
-    if(i < 52) :
+    if(i < (len(chèn_4))-2) :
         chèn_5 = chèn_5+chèn_4[i]
     i+=1
 #remete chèn nan nan plas li
